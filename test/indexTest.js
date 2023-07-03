@@ -75,3 +75,41 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+
+function add(a, b){
+return a + b
+}
+
+function subtract(a, b){
+return a - b 
+}
+
+function multiply(a, b){
+return a * b
+}
+
+function divide(a, b){
+return a / b
+}
+
+function increment(){
+  const number = a + 1
+  return number
+}
+
+function decrement(){
+  const number = a - 1
+  return number
+}
+
+
+
+function makeInt(a){ //Parse a as an integer and return that integer.
+  number = parseInt(a, 10);
+  return number
+}
+
+function preserveDecimal(a){ //Parse a as a float (number with decimals) and return that number.
+  number = parseFloat(a, 10);
+  return number;
+}
